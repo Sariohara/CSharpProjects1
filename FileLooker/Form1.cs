@@ -20,7 +20,7 @@ namespace FileLooker
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -51,6 +51,23 @@ namespace FileLooker
             {
                 Application.Exit();
             }
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnClear_Click_1(object sender, EventArgs e)
+        {
+            ClearContents();
+        }
+
+        private void ClearContents()
+        {
+            txtDirectory.Clear();
+            lstdata.Items.Clear();
+            lstsearchfile.Items.Clear();
         }
     }
 }
