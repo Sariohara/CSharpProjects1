@@ -55,11 +55,6 @@ namespace FileLooker
 
         private void BtnClear_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void BtnClear_Click_1(object sender, EventArgs e)
-        {
             ClearContents();
         }
 
